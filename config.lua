@@ -35,6 +35,9 @@ Config.Vehicles = {
 -- Parking Jobs Config
 Config.ParkingJobs = { 'police', 'parking' }
 
+-- Your Server's Give key event, might have to edit in cl_job at line 79
+Config.GiveKeyEvent = "vehiclekeys:client:SetOwner"
+
 --[[
  ██████╗ ██████╗      ██╗███████╗ ██████╗████████╗    ██████╗ ██╗      █████╗  ██████╗███████╗██████╗ 
 ██╔═══██╗██╔══██╗     ██║██╔════╝██╔════╝╚══██╔══╝    ██╔══██╗██║     ██╔══██╗██╔════╝██╔════╝██╔══██╗

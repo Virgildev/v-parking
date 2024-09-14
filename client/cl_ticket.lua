@@ -230,7 +230,7 @@ AddEventHandler('ticketing:showTicketDetailsMenu', function(ticket)
 end)
 
 
-local function spawnTicketPaymentPed()
+Citizen.CreateThread(function()
     local pedModel = GetHashKey(Config.TicketPaymentLocation.ped.model)
 
     RequestModel(pedModel)
@@ -258,7 +258,7 @@ local function spawnTicketPaymentPed()
         options = Config.TicketPaymentLocation.interaction.target
     }
     exports.ox_target:addBoxZone(boxZoneParams)
-end
+end)
 
 RegisterNetEvent('ticketing:payTicket')
 AddEventHandler('ticketing:payTicket', function()
@@ -280,12 +280,6 @@ AddEventHandler('ticketing:payTicket', function()
     end
 
     TriggerServerEvent('ticketing:payTicket', ticketId)
-end)
-
-AddEventHandler('onResourceStart', function(resourceName)
-    if resourceName == GetCurrentResourceName() then
-        spawnTicketPaymentPed()
-    end
 end)
 
 local parkingHutModels = Config.HutModels

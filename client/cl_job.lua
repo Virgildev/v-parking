@@ -1,6 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-local function spawnPeds()
+Citizen.CreateThread(function()
     for _, pedData in pairs(Config.PedLocations) do
         local pedModel = GetHashKey(pedData.pedModel)
         RequestModel(pedModel)
@@ -30,7 +30,7 @@ local function spawnPeds()
             }
         })
     end
-end
+end)
 
 function openVehicleMenu(spawnLocation, pedData)
         local options = {}
@@ -66,6 +66,7 @@ function spawnVehicle(vehicle, location)
     DoScreenFadeOut(2500)
     Wait(2500)
     local vehicleHash = GetHashKey(vehicle.name)
+
     RequestModel(vehicleHash)
     while not HasModelLoaded(vehicleHash) do
         Wait(1)
@@ -74,7 +75,8 @@ function spawnVehicle(vehicle, location)
     local spawnedVehicle = CreateVehicle(vehicleHash, location.x, location.y, location.z, 0.0, true, false)
     TaskWarpPedIntoVehicle(PlayerPedId(), spawnedVehicle, -1)
     DoScreenFadeIn(2500)
-    TriggerEvent("vehiclekeys:client:SetOwner", spawnedVehicle)
+
+    TriggerEvent(Config.GiveKeyEvent, spawnedVehicle)
 end
 
 function returnVehicle()
@@ -93,7 +95,3 @@ function returnVehicle()
         })        
     end
 end
-
-Citizen.CreateThread(function()
-    spawnPeds()
-end)
