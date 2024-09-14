@@ -4,6 +4,15 @@
 
 The Parking Enforcement Script integrates a comprehensive parking enforcement system into your FiveM server, allowing officers and parking enforcement personnel to issue parking tickets, manage violations, and utilize various props and vehicles related to parking enforcement.
 
+## Preview
+
+- Ticketing:
+- Paying Ticket:
+- Clamp:
+- Tire Slashing:
+- Object Placement/Parking Huts:
+- Vehicle Rental:
+
 ## Features
 
 - **Job Configurations:** Includes specialized vehicles for enforcement activities, with a rental and return style system.
