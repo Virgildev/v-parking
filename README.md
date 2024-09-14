@@ -14,6 +14,8 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
 - Object Placement/Parking Huts: https://streamable.com/2n0awv
 - Vehicle Rental: https://streamable.com/834jll
 
+Vehicle used in the above previews can be got here: https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/39327-fivem-ready-parking-enforcement-go4-non-els/
+
 ## Features
 
 - **Job Configurations:** Includes specialized vehicles for enforcement activities, with a rental and return style system.
@@ -22,8 +24,6 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
 - **Ticket Management:** Issue and manage parking tickets with configurable costs.
 - **Clamp Functionality:** Clamp vehicles with configurable item and progress settings.
 - **Tire Slashing:** Option to slash vehicles with configurable settings.
-
-Vehicle used in the above previews can be got here: https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/39327-fivem-ready-parking-enforcement-go4-non-els/
 
 ## Installation
 
