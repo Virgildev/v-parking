@@ -6,12 +6,13 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
 
 ## Preview
 
-- Ticketing:
-- Paying Ticket:
-- Clamp:
-- Tire Slashing:
-- Object Placement/Parking Huts:
-- Vehicle Rental:
+- Ticketing: https://streamable.com/xi4nk8
+- Paying Ticket: https://streamable.com/v27dyq
+- Clamp: https://streamable.com/i4d3c3
+- Parking Meters: https://streamable.com/zflsn7
+- Tire Slashing: https://streamable.com/tp68wr
+- Object Placement/Parking Huts: https://streamable.com/2n0awv
+- Vehicle Rental: https://streamable.com/834jll
 
 ## Features
 
