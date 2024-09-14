@@ -28,8 +28,8 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
 
 ## Configuration
 
-Open the `config.lua` file to adjust the settings according to your server’s needs.
-The script is fully opensource so feel free to edit to your server's requests.
+- Open the `config.lua` file to adjust the settings according to your server’s needs.
+- The script is fully opensource so feel free to edit to your server's requests.
 
 ## Support
 
