@@ -127,7 +127,9 @@ function addTireSlashingTargets()
 end
 
 AddEventHandler('onResourceStart', function(resourceName)
-    if Config.UseSlash then
-        addTireSlashingTargets()
+    if GetCurrentResourceName() == resourceName then
+        if Config.UseSlash then
+            addTireSlashingTargets()
+        end
     end
 end)

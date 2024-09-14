@@ -137,7 +137,6 @@ Config.ClampProgress = 2000
    ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝                                                                                               
 ]]
 
--- Vehicle Slashing Config
 Config.UseSlash = true -- true or false, use slashing or not
 Config.Knives = {
     `WEAPON_KNIFE`,

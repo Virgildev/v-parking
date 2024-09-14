@@ -365,8 +365,12 @@ AddEventHandler('ticketing:showTicketDetail', function(ticket)
                 description = string.format(Lang.Lang['vehicle_plate_label'] or "Vehicle Plate: %s", ticket.license_plate or "N/A")
             },
             {
-                title = string.format(Lang.Lang['amount_label'] or "Amount: %s", ticket.amount or "N/A"),
-                description = string.format(Lang.Lang['reason_label'] or "Reason: %s", ticket.reason or "N/A")
+                title = Lang.Lang['amount_label_Title'] or "Amount",
+                description = Lang.Lang['currency'] .. tostring(ticket.amount),
+            },
+            {
+                title = Lang.Lang['reason'] or "Reason",
+                description = tostring(ticket.reason) or "N/A",
             },
             {
                 title = Lang.Lang['notes_label'] or "Notes",

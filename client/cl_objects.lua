@@ -31,10 +31,11 @@ RegisterNetEvent("QBCore:Client:LeftVehicle", function()
 end)
 
 RegisterNetEvent('parking:deleteObject', function(id)
-    if lib.progressBar({
+    if lib.progressCircle({
         duration = Config.ObjectPlacerProgress,
         label = Lang.Lang['removing_object'],
         canCancel = true,
+        position = 'bottom',
         position = 'bottom',
         disable = {
             car = true,
