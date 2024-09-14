@@ -33,7 +33,7 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
    - Open your `server.cfg` file.
    - Add the following line to ensure the script starts with your server:
      ```plaintext
-     start parking_enforcement
+     start v-parking
      ```
 
 ## Configuration
