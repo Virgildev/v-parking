@@ -16,7 +16,8 @@ Special thanks to Rottenberger for the idea and clamp prop!
 - Object Placement/Parking Huts: https://streamable.com/2n0awv
 - Vehicle Rental: https://streamable.com/834jll
 
-Vehicle used in the above previews can be got here: https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/39327-fivem-ready-parking-enforcement-go4-non-els/
+- Vehicle used in the above previews can be got here: https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/39327-fivem-ready-parking-enforcement-go4-non-els/
+- Clothing made by Rottenberger to go with the script: https://github.com/iplayer1337fivem/-ar-ParkForce-clothing
 
 ## Features
 
