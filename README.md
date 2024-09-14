@@ -23,6 +23,8 @@ The Parking Enforcement Script integrates a comprehensive parking enforcement sy
 - **Clamp Functionality:** Clamp vehicles with configurable item and progress settings.
 - **Tire Slashing:** Option to slash vehicles with configurable settings.
 
+Vehicle used in the above previews can be got here: https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/39327-fivem-ready-parking-enforcement-go4-non-els/
+
 ## Installation
 
 1. **Download and Extract the Script:**
