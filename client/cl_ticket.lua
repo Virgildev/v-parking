@@ -198,7 +198,7 @@ AddEventHandler('ticketing:showTicketDetailsMenu', function(ticket)
                 },
                 {
                     title = Lang.Lang['amount_label_Title'] or "Amount",
-                    description = Lang.Lang['amount_label']:format(tostring(ticket.metadata.amount)) or "N/A",
+                    description = Lang.Lang['currency'] .. tostring(ticket.metadata.amount),
                     icon = 'money-bill'
                 },
                 {

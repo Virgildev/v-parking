@@ -112,6 +112,7 @@ Lang.Lang = {
     ['object_menu_command'] = "Place an object",
     ['object_spawn'] = "Object spawned successfully.",
     ['object_deleted'] = "Object deleted successfully.",
+    ['currency'] = "$",
 }
 
 --Deutsch
@@ -222,6 +223,7 @@ Lang.Lang = {
     ['object_menu_command'] = "Objekt platzieren",
     ['object_spawn'] = "Objekt erfolgreich gespawnt.",
     ['object_deleted'] = "Objekt erfolgreich gelöscht.",
+    ['currency'] = "€",
 }
 ]]
 
@@ -334,5 +336,6 @@ Lang.Lang = {
     ['object_menu_command'] = "Placer un objet",
     ['object_spawn'] = "Objet apparaîtra avec succès.",
     ['object_deleted'] = "Objet supprimé avec succès.",
+    ['currency'] = "€",
 }
 ]]

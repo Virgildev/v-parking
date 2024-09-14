@@ -10,20 +10,22 @@ local function CreateObjectId()
     return objectId
 end
 
-QBCore.Commands.Add(Config.ObjectMenuCommand, Lang.Lang['object_menu_command'], {}, false, function(source)
-    local Player = QBCore.Functions.GetPlayer(source)
-    local jobName = Player.PlayerData.job.name
-    
-    if table.contains(Config.ParkingJobs, jobName) and Player.PlayerData.job.onduty then
-        TriggerClientEvent('parking:OpenObjectMenu', source)
-    else
-        TriggerClientEvent('ox_lib:notify', source, {
-            title = Lang.Lang['access_denied_title'],
-            description = Lang.Lang['access_denied_description'],
-            type = 'error'
-        })
-    end
-end)
+if Config.UseObjectPlacer then
+    QBCore.Commands.Add(Config.ObjectMenuCommand, Lang.Lang['object_menu_command'], {}, false, function(source)
+        local Player = QBCore.Functions.GetPlayer(source)
+        local jobName = Player.PlayerData.job.name
+        
+        if table.contains(Config.ParkingJobs, jobName) and Player.PlayerData.job.onduty then
+            TriggerClientEvent('parking:OpenObjectMenu', source)
+        else
+            TriggerClientEvent('ox_lib:notify', source, {
+                title = Lang.Lang['access_denied_title'],
+                description = Lang.Lang['access_denied_description'],
+                type = 'error'
+            })
+        end
+    end)
+end
 
 function table.contains(tbl, val)
     for _, v in pairs(tbl) do
