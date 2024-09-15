@@ -23,7 +23,6 @@ Citizen.CreateThread(function()
             {
                 label = Lang.Lang['open_vehicle_menu'],
                 icon = "fa-car",
-                groups = Config.ParkingJobs,
                 onSelect = function()
                     openVehicleMenu(pedData.spawnLocations, pedData)
                 end
