@@ -33,7 +33,7 @@ RegisterNetEvent('tireSlashing:popTire', function(networkId, wheelIndex)
     end
 end)
 
-function addTireSlashingTargets()
+Citizen.CreateThread(function()
     exports.ox_target:addGlobalVehicle({
         {
             label = 'Slash Tire',
@@ -124,12 +124,4 @@ function addTireSlashingTargets()
             end
         }
     })
-end
-
-AddEventHandler('onResourceStart', function(resourceName)
-    if GetCurrentResourceName() == resourceName then
-        if Config.UseSlash then
-            addTireSlashingTargets()
-        end
-    end
 end)
