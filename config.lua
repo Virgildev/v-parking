@@ -130,23 +130,3 @@ Config.ClampItem = 'clamp'
 
 --Clamp progress bar, on and off
 Config.ClampProgress = 2000
-
---[[
-████████╗██╗██████╗ ███████╗    ███████╗██╗      █████╗ ███████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
-╚══██╔══╝██║██╔══██╗██╔════╝    ██╔════╝██║     ██╔══██╗██╔════╝██║  ██║██║████╗  ██║██╔════╝ 
-   ██║   ██║██████╔╝█████╗      ███████╗██║     ███████║███████╗███████║██║██╔██╗ ██║██║  ███╗
-   ██║   ██║██╔══██╗██╔══╝      ╚════██║██║     ██╔══██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║
-   ██║   ██║██║  ██║███████╗    ███████║███████╗██║  ██║███████║██║  ██║██║██║ ╚████║╚██████╔╝
-   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝    ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝                                                                                               
-]]
-
-Config.UseSlash = true -- true or false, use slashing or not
-Config.Knives = {
-    `WEAPON_KNIFE`,
-    `WEAPON_BOTTLE`,
-    `WEAPON_DAGGER`,
-    `WEAPON_SWITCHBLADE`,
-}
-Config.SlashProgress = 5000
-Config.SlashSkillCheck = { 'easy', 'medium', 'easy' }
-Config.SlashSkillCheckKeys = { 'w', 'a', 's', 'd' }
